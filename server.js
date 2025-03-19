@@ -4,6 +4,8 @@ const path = require('path');
 const fs = require('fs');
 
 const app = express();
+
+// Usa la variabile di ambiente PORT fornita da Render, con fallback alla porta 10000
 const PORT = process.env.PORT || 10000;
 
 // Public folder per esporre i file
